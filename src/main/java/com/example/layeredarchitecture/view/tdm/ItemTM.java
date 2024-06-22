@@ -10,7 +10,7 @@ public class ItemTM  {
     private BigDecimal unitPrice;
     private int qtyOnHand;
 
-    public ItemTM(String code, String description, BigDecimal unitPrice) {
+    public ItemTM() {
     }
 
     public ItemTM(String code, String description, BigDecimal unitPrice, int qtyOnHand) {
